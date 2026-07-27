@@ -1,0 +1,18 @@
+﻿# Python / Backend
+backend/venv/
+__pycache__/
+*.py[cod]
+.env
+venv/
+frontend/build/
+frontend/.dart_tool/
+frontend/windows/flutter/
+# Database
+
+postgres/
+
+# OS files
+Thumbs.db
+.DS_Store
+*.log
+openjdk/
