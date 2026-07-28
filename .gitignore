@@ -18,3 +18,13 @@ Thumbs.db
 openjdk/
 
 shared-proto-db/
+
+# Environment & Local Configuration Files
+env.bat
+env.ps1
+.env
+local.properties
+
+# SDK & Binary Tools (अगर ये आपके प्रोजेक्ट फोल्डर के अंदर हैं)
+android-sdk/
+*.jar
