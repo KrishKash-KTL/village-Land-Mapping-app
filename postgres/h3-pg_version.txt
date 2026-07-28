@@ -1,0 +1,5 @@
+H3-PG extensions: v4.1.3
+PostgreSQL: 16 w64
+Built: 20230814
+GIT_REPO: https://github.com/zachasme/h3-pg
+GIT_REVISION: HEAD detached at a6d98a4

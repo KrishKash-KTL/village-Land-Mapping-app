@@ -1,0 +1,35 @@
+2026-07-24 18:16:24.837 IST [24724] LOG:  starting PostgreSQL 16.14, compiled by Visual C++ build 1944, 64-bit
+2026-07-24 18:16:24.844 IST [24724] LOG:  listening on IPv6 address "::1", port 5433
+2026-07-24 18:16:24.844 IST [24724] LOG:  listening on IPv4 address "127.0.0.1", port 5433
+2026-07-24 18:16:24.907 IST [25504] LOG:  database system was shut down at 2026-07-24 17:39:44 IST
+2026-07-24 18:16:24.940 IST [24724] LOG:  database system is ready to accept connections
+2026-07-24 18:21:24.901 IST [10432] LOG:  checkpoint starting: time
+2026-07-24 18:21:24.929 IST [10432] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.011 s, sync=0.003 s, total=0.029 s; sync files=2, longest=0.002 s, average=0.002 s; distance=0 kB, estimate=0 kB; lsn=0/15777A8, redo lsn=0/1577770
+2026-07-24 18:41:24.963 IST [10432] LOG:  checkpoint starting: time
+2026-07-24 18:45:01.709 IST [10432] LOG:  checkpoint complete: wrote 1984 buffers (12.1%); 0 WAL file(s) added, 0 removed, 1 recycled; write=216.520 s, sync=0.199 s, total=216.747 s; sync files=313, longest=0.010 s, average=0.001 s; distance=14189 kB, estimate=14189 kB; lsn=0/2352D90, redo lsn=0/2352D58
+2026-07-24 21:55:04.268 IST [10432] LOG:  checkpoint starting: time
+2026-07-24 21:55:04.636 IST [10432] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.323 s, sync=0.022 s, total=0.369 s; sync files=2, longest=0.021 s, average=0.011 s; distance=15 kB, estimate=12772 kB; lsn=0/2356D10, redo lsn=0/2356CD8
+2026-07-24 22:06:31.410 IST [30352] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-07-24 22:06:38.890 IST [24724] LOG:  background worker "logical replication launcher" (PID 17656) was terminated by exception 0xC000013A
+2026-07-24 22:06:38.890 IST [24724] HINT:  See C include file "ntstatus.h" for a description of the hexadecimal value.
+2026-07-24 22:06:38.890 IST [24724] LOG:  terminating any other active server processes
+^C2026-07-26 19:40:43.173 IST [30384] LOG:  starting PostgreSQL 16.14, compiled by Visual C++ build 1944, 64-bit
+2026-07-26 19:40:43.176 IST [30384] LOG:  listening on IPv6 address "::1", port 5433
+2026-07-26 19:40:43.176 IST [30384] LOG:  listening on IPv4 address "127.0.0.1", port 5433
+2026-07-26 19:40:43.217 IST [29408] LOG:  database system was interrupted; last known up at 2026-07-24 21:55:04 IST
+2026-07-26 19:40:43.296 IST [29408] LOG:  database system was not properly shut down; automatic recovery in progress
+2026-07-26 19:40:43.298 IST [29408] LOG:  redo starts at 0/2356CD8
+2026-07-26 19:40:43.298 IST [29408] LOG:  invalid record length at 0/2356DC0: expected at least 24, got 0
+2026-07-26 19:40:43.298 IST [29408] LOG:  redo done at 0/2356D88 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2026-07-26 19:40:43.300 IST [25052] LOG:  checkpoint starting: end-of-recovery immediate wait
+2026-07-26 19:40:43.304 IST [25052] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.005 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB; lsn=0/2356DC0, redo lsn=0/2356DC0
+2026-07-26 19:40:43.321 IST [30384] LOG:  database system is ready to accept connections
+2026-07-26 21:30:55.459 IST [30384] LOG:  server process (PID 21660) was terminated by exception 0xC000013A
+2026-07-26 21:30:55.459 IST [30384] DETAIL:  Failed process was running: ROLLBACK
+2026-07-26 21:30:55.459 IST [30384] HINT:  See C include file "ntstatus.h" for a description of the hexadecimal value.
+2026-07-26 21:30:55.459 IST [30384] LOG:  terminating any other active server processes
+2026-07-26 21:30:55.475 IST [30384] LOG:  all server processes terminated; reinitializing
+2026-07-26 21:30:55.523 IST [30648] LOG:  database system was interrupted; last known up at 2026-07-26 19:40:43 IST
+^C2026-07-26 21:30:55.789 IST [30648] LOG:  database system was not properly shut down; automatic recovery in progress
+2026-07-26 21:30:55.792 IST [30648] LOG:  redo starts at 0/2356E38

@@ -1,0 +1,6 @@
+MobilityDb: 1.1.1 https://github.com/MobilityDB/MobilityDB
+POSTGIS: 3.4.2 https://postgis.net/source
+GEOS VERSION: 3.12.1 https://github.com/libgeos/geos
+PROJ VERSION: 8.2.1 https://proj.org/download.html#current-release
+GSL: 2.7 https://www.gnu.org/software/gsl/
+json-c: 0.12
